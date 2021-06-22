@@ -485,14 +485,32 @@ footer {
   }
 }
 
-@media (min-width: 280px) and (max-width: 540px) {
-  #contact-form {
-    width: 100%;
-    margin: 30px auto;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media screen and (min-width: 280px) and (max-width: 540px) {
+  .menu{
+    a{
+      font-size: 12px;
+    }
+  }
+  #contacto{
+    #contact-form {
+      width: 100%;
+      padding: 0px 10px;
+    }
+  }
+
+  #portfolio-img{
+    li{
+      width: 100%;
+      h3{
+        font-size: 1em;
+      }
+      span{
+        font-size: 0.7em;
+      }
+      a{
+        font-size: 10px;
+      }
+    }
   }
 }
 

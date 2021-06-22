@@ -884,21 +884,25 @@ footer span {
   }
 }
 
-@media (min-width: 280px) and (max-width: 540px) {
-  #contact-form {
+@media screen and (min-width: 280px) and (max-width: 540px) {
+  .menu a {
+    font-size: 12px;
+  }
+  #contacto #contact-form {
     width: 100%;
-    margin: 30px auto;
-    margin-bottom: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 0px 10px;
+  }
+  #portfolio-img li {
+    width: 100%;
+  }
+  #portfolio-img li h3 {
+    font-size: 1em;
+  }
+  #portfolio-img li span {
+    font-size: 0.7em;
+  }
+  #portfolio-img li a {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
