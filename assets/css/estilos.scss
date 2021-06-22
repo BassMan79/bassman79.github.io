@@ -244,7 +244,7 @@ li {
   }
 
   #contact-form {
-    width: 500px;
+    width: 50%;
     margin: 30px auto;
     margin-bottom: 100px;
     display: flex;
@@ -281,9 +281,9 @@ li {
       background-color: #1e242c;
       border: none;
       margin: 3px 0px;
-      min-width: 500px;
+      min-width: 100%;
       min-height: 170px;
-      max-width: 500px;
+      max-width: 100%;
       max-height: 170px;
     }
   }
@@ -484,3 +484,15 @@ footer {
     min-height: 66px;
   }
 }
+
+@media (min-width: 280px) and (max-width: 540px) {
+  #contact-form {
+    width: 100%;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
